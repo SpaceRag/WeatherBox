@@ -20,7 +20,7 @@ This is a simple micro-application for fetching and displaying weather informati
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/SpaceRag/WeatherBox.git
    cd WeatherBox
    ```
 
