@@ -17,8 +17,9 @@ body {
 
 .container {
   height: 400px;
-  background-color: #232931;
+  background-color: #232931b7;
   color: #fff;
+  border: 0.5px solid #60309f;
   border-radius: 25px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
 }
@@ -41,7 +42,8 @@ body {
 }
 
 .left-info:hover {
-  transform: scale(1.1) perspective(2500px) rotateY(5deg);
+  transform: scale(1.1) perspective(2500px) rotateY(15deg);
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.356);
 }
 
 .pic-gradient {
@@ -50,7 +52,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(135deg, #5c6bc0 10%, #135ac5 100%);
+  background: linear-gradient(135deg, #f56e39f3 10%, #0463f18e 100%);
   border-radius: 25px;
   opacity: 0.5;
 }
@@ -83,11 +85,12 @@ body {
   float: right;
   position: relative;
   height: 100%;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
+
 .day-info {
-  padding: 25px 35px;
+  padding: 20px 15px;
   display: flex;
   flex-direction: column;
 }
@@ -102,6 +105,17 @@ body {
 
 .day-info div .value {
   float: right;
+}
+
+.day-info div .value:hover {
+  transform: scale(1.5);
+  background: #cacacaab;
+  color: #232931;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  transition: all 0.3s ease;
+
 }
 
 .days-list {
