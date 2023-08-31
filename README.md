@@ -29,3 +29,6 @@ This is a simple micro-application for fetching and displaying weather informati
    apiKey = 'YOUR API KEY GOES HERE';
 
 3. Use LiveServer or npm install for testing. 
+
+## ScreenShot 
+![Screenshot from 2023-08-31 16-09-31](https://github.com/SpaceRag/WeatherBox/assets/123640951/06ec824e-216d-4c0a-ba20-2e59e27593c5)
